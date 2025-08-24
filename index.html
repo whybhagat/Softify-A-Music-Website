@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard with Sliders and Music Player</title>
+    <link rel='stylesheet' href='1.css'>
+    <link rel='stylesheet' href='2.css'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+      <nav class="main-menu">
+        <div>
+          <div class="user-info">
+            <img
+              src="LOGO.png"
+              alt="user" />
+            <p>SOFTIFY</p>
+          </div>
+          <ul>
+            <li class="nav-item active">
+              <a href="#">
+                <i class="fa fa-map nav-icon"></i>
+                <span class="nav-text">Discover</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-arrow-trend-up nav-icon"></i>
+                <span class="nav-text">Trending</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-compact-disc nav-icon"></i>
+                <span class="nav-text">Album</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-circle-play nav-icon"></i>
+                <span class="nav-text">Playlist</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-heart nav-icon"></i>
+                <span class="nav-text">Favorites</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul>
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa fa-user nav-icon"></i>
+              <span class="nav-text">Profile</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa fa-gear nav-icon"></i>
+              <span class="nav-text">Settings</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa fa-right-from-bracket nav-icon"></i>
+              <span class="nav-text">Logout</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="content">
+        <div class="left-content">
+          <div class="slider-container">
+            <h1>Popular Playlist</h1>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="1.jpg" />
+                  <div class="slide-overlay">
+                    <h2>Midnight Moods</h2>
+                    <button>
+                      Listen Now <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="2.jpg" />
+                  <div class="slide-overlay">
+                    <h2>Party Starters</h2>
+                    <button>
+                      Listen Now <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="3.jpg" />
+                  <div class="slide-overlay">
+                    <h2>Relaxing Tones</h2>
+                    <button>
+                      Listen Now <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="4.jpg" />
+                  <div class="slide-overlay">
+                    <h2>Smooth Jazz Journey</h2>
+                    <button>
+                      Listen Now <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="6.jpg" />
+                  <div class="slide-overlay">
+                    <h2>Uplifting Rhythms</h2>
+                    <button>
+                      Listen Now <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="artists">
+            <h1>Featured Artists</h1>
+            <div class="artist-container containers">
+              <div class="artist">
+                <img
+                  src="arijit.png"
+                  alt="" />
+                <p>Arijit Singh</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="honey.jpg"
+                  alt="" />
+                <p>Yo Yo Honey Singh</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="shreya.jpg"
+                  alt="" />
+                <p>Shreya Ghoshal</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="subh.jpg"
+                  alt="" />
+                <p>Subh</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="7.jpg"
+                  alt="" />
+                <p>Alicia Keys</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="8.jpg"
+                  alt="" />
+                <p>Maroon 5</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="9.jpg"
+                  alt="" />
+                <p>Imagine Dragons</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="5.jpg"
+                  alt="" />
+                <p>Billie Eilish</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="albums">
+            <h1>Recommended Albums</h1>
+            <div class="album-container containers">
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="10.jpg"
+                    alt="" />
+                </div>
+                <div>
+                  <h2>Views</h2>
+                  <p>Drake</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="11.jpg"
+                    alt="" />
+                </div>
+                <div>
+                  <h2>Speak Now</h2>
+                  <p>Taylor Swift</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="12.jpg"
+                    alt="" />
+                </div>
+                <div>
+                  <h2>Born to Die</h2>
+                  <p>Lana Del Rey</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="13.png"
+                    alt="" />
+                </div>
+                <div>
+                  <h2>Endless Summer Vacation</h2>
+                  <p>Miley Cyrus</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="14.png"
+                    alt="" />
+                </div>
+                <div>
+                  <h2>The Dark Side of The Moon</h2>
+                  <p>Pink Floyd</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-content">
+          <div class="recommended-songs">
+            <h1>Recommended Songs</h1>
+            <div class="song-container">
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="15.png"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Blank Space</h2>
+                  <p>Taylor Swift</p>
+                </div>
+                <span>4:33</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="16.png"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>One Dance</h2>
+                  <p>Drake</p>
+                </div>
+                <span>4:03</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="17.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Pawn It All</h2>
+                  <p>Alicia Keys</p>
+                </div>
+                <span>3:10</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="18.png"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Lose Control</h2>
+                  <p>Teddy Swims</p>
+                </div>
+                <span>3:30</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="18.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Be The One</h2>
+                  <p>Dua Lipa</p>
+                </div>
+                <span>3:24</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="19.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Delicate</h2>
+                  <p>Taylor Swift</p>
+                </div>
+                <span>3:54</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="20.png"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Last Christmas</h2>
+                  <p>Wham!</p>
+                </div>
+                <span>4:39</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="21.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Paradise</h2>
+                  <p>Coldplay</p>
+                </div>
+                <span>4:20</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="22.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Easy On Me</h2>
+                  <p>Adele</p>
+                </div>
+                <span>3:45</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="music-player">
+            <div class="album-cover">
+              <img src="images/album-cover.png" id="rotatingImage" alt="" />
+              <span class="point"></span>
+            </div>
+
+            <h2>Redemption</h2>
+            <p>Besomorph & Coopex</p>
+
+            <audio id="song">
+              <source src="onelove.mp3" type="audio/mpeg" />
+            </audio>
+
+            <input type="range" value="0" id="progress" />
+
+            <div class="controls">
+              <button class="backward">
+                <i class="fa-solid fa-backward"></i>
+              </button>
+              <button class="play-pause-btn">
+                <i class="fa-solid fa-play" id="controlIcon"></i>
+              </button>
+              <button class="forward">
+                <i class="fa-solid fa-forward"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
